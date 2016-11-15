@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		334CA1C41DDBD13500BF4145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1C31DDBD13500BF4145 /* AppDelegate.swift */; };
+		334CA1C61DDBD13500BF4145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1C51DDBD13500BF4145 /* ViewController.swift */; };
+		334CA1C91DDBD13500BF4145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1C71DDBD13500BF4145 /* Main.storyboard */; };
+		334CA1CB1DDBD13500BF4145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1CA1DDBD13500BF4145 /* Assets.xcassets */; };
+		334CA1CE1DDBD13500BF4145 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1CC1DDBD13500BF4145 /* LaunchScreen.storyboard */; };
+		334CA1D91DDBD13500BF4145 /* yapaymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1D81DDBD13500BF4145 /* yapaymeTests.swift */; };
+		334CA1E41DDBD13500BF4145 /* yapaymeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1E31DDBD13500BF4145 /* yapaymeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		334CA1D51DDBD13500BF4145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334CA1B81DDBD13500BF4145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334CA1BF1DDBD13500BF4145;
+			remoteInfo = yapayme;
+		};
+		334CA1E01DDBD13500BF4145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 334CA1B81DDBD13500BF4145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 334CA1BF1DDBD13500BF4145;
+			remoteInfo = yapayme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334CA1C01DDBD13500BF4145 /* yapayme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yapayme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334CA1C31DDBD13500BF4145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		334CA1C51DDBD13500BF4145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		334CA1C81DDBD13500BF4145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334CA1CA1DDBD13500BF4145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334CA1CD1DDBD13500BF4145 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334CA1CF1DDBD13500BF4145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334CA1D41DDBD13500BF4145 /* yapaymeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yapaymeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334CA1D81DDBD13500BF4145 /* yapaymeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yapaymeTests.swift; sourceTree = "<group>"; };
+		334CA1DA1DDBD13500BF4145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334CA1DF1DDBD13500BF4145 /* yapaymeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yapaymeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334CA1E31DDBD13500BF4145 /* yapaymeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yapaymeUITests.swift; sourceTree = "<group>"; };
+		334CA1E51DDBD13500BF4145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		334CA1BD1DDBD13500BF4145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334CA1D11DDBD13500BF4145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334CA1DC1DDBD13500BF4145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		334CA1B71DDBD13500BF4145 = {
+			isa = PBXGroup;
+			children = (
+				334CA1C21DDBD13500BF4145 /* yapayme */,
+				334CA1D71DDBD13500BF4145 /* yapaymeTests */,
+				334CA1E21DDBD13500BF4145 /* yapaymeUITests */,
+				334CA1C11DDBD13500BF4145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		334CA1C11DDBD13500BF4145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				334CA1C01DDBD13500BF4145 /* yapayme.app */,
+				334CA1D41DDBD13500BF4145 /* yapaymeTests.xctest */,
+				334CA1DF1DDBD13500BF4145 /* yapaymeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		334CA1C21DDBD13500BF4145 /* yapayme */ = {
+			isa = PBXGroup;
+			children = (
+				334CA1C31DDBD13500BF4145 /* AppDelegate.swift */,
+				334CA1C51DDBD13500BF4145 /* ViewController.swift */,
+				334CA1C71DDBD13500BF4145 /* Main.storyboard */,
+				334CA1CA1DDBD13500BF4145 /* Assets.xcassets */,
+				334CA1CC1DDBD13500BF4145 /* LaunchScreen.storyboard */,
+				334CA1CF1DDBD13500BF4145 /* Info.plist */,
+			);
+			path = yapayme;
+			sourceTree = "<group>";
+		};
+		334CA1D71DDBD13500BF4145 /* yapaymeTests */ = {
+			isa = PBXGroup;
+			children = (
+				334CA1D81DDBD13500BF4145 /* yapaymeTests.swift */,
+				334CA1DA1DDBD13500BF4145 /* Info.plist */,
+			);
+			path = yapaymeTests;
+			sourceTree = "<group>";
+		};
+		334CA1E21DDBD13500BF4145 /* yapaymeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				334CA1E31DDBD13500BF4145 /* yapaymeUITests.swift */,
+				334CA1E51DDBD13500BF4145 /* Info.plist */,
+			);
+			path = yapaymeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		334CA1BF1DDBD13500BF4145 /* yapayme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334CA1E81DDBD13500BF4145 /* Build configuration list for PBXNativeTarget "yapayme" */;
+			buildPhases = (
+				334CA1BC1DDBD13500BF4145 /* Sources */,
+				334CA1BD1DDBD13500BF4145 /* Frameworks */,
+				334CA1BE1DDBD13500BF4145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yapayme;
+			productName = yapayme;
+			productReference = 334CA1C01DDBD13500BF4145 /* yapayme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		334CA1D31DDBD13500BF4145 /* yapaymeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334CA1EB1DDBD13500BF4145 /* Build configuration list for PBXNativeTarget "yapaymeTests" */;
+			buildPhases = (
+				334CA1D01DDBD13500BF4145 /* Sources */,
+				334CA1D11DDBD13500BF4145 /* Frameworks */,
+				334CA1D21DDBD13500BF4145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334CA1D61DDBD13500BF4145 /* PBXTargetDependency */,
+			);
+			name = yapaymeTests;
+			productName = yapaymeTests;
+			productReference = 334CA1D41DDBD13500BF4145 /* yapaymeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		334CA1DE1DDBD13500BF4145 /* yapaymeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 334CA1EE1DDBD13500BF4145 /* Build configuration list for PBXNativeTarget "yapaymeUITests" */;
+			buildPhases = (
+				334CA1DB1DDBD13500BF4145 /* Sources */,
+				334CA1DC1DDBD13500BF4145 /* Frameworks */,
+				334CA1DD1DDBD13500BF4145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				334CA1E11DDBD13500BF4145 /* PBXTargetDependency */,
+			);
+			name = yapaymeUITests;
+			productName = yapaymeUITests;
+			productReference = 334CA1DF1DDBD13500BF4145 /* yapaymeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		334CA1B81DDBD13500BF4145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Clenched Teeth";
+				TargetAttributes = {
+					334CA1BF1DDBD13500BF4145 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 897A4CWZDW;
+						ProvisioningStyle = Automatic;
+					};
+					334CA1D31DDBD13500BF4145 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 897A4CWZDW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 334CA1BF1DDBD13500BF4145;
+					};
+					334CA1DE1DDBD13500BF4145 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 897A4CWZDW;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 334CA1BF1DDBD13500BF4145;
+					};
+				};
+			};
+			buildConfigurationList = 334CA1BB1DDBD13500BF4145 /* Build configuration list for PBXProject "yapayme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 334CA1B71DDBD13500BF4145;
+			productRefGroup = 334CA1C11DDBD13500BF4145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				334CA1BF1DDBD13500BF4145 /* yapayme */,
+				334CA1D31DDBD13500BF4145 /* yapaymeTests */,
+				334CA1DE1DDBD13500BF4145 /* yapaymeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		334CA1BE1DDBD13500BF4145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334CA1CE1DDBD13500BF4145 /* LaunchScreen.storyboard in Resources */,
+				334CA1CB1DDBD13500BF4145 /* Assets.xcassets in Resources */,
+				334CA1C91DDBD13500BF4145 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334CA1D21DDBD13500BF4145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334CA1DD1DDBD13500BF4145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		334CA1BC1DDBD13500BF4145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334CA1C61DDBD13500BF4145 /* ViewController.swift in Sources */,
+				334CA1C41DDBD13500BF4145 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334CA1D01DDBD13500BF4145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334CA1D91DDBD13500BF4145 /* yapaymeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		334CA1DB1DDBD13500BF4145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				334CA1E41DDBD13500BF4145 /* yapaymeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		334CA1D61DDBD13500BF4145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334CA1BF1DDBD13500BF4145 /* yapayme */;
+			targetProxy = 334CA1D51DDBD13500BF4145 /* PBXContainerItemProxy */;
+		};
+		334CA1E11DDBD13500BF4145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 334CA1BF1DDBD13500BF4145 /* yapayme */;
+			targetProxy = 334CA1E01DDBD13500BF4145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		334CA1C71DDBD13500BF4145 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334CA1C81DDBD13500BF4145 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		334CA1CC1DDBD13500BF4145 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				334CA1CD1DDBD13500BF4145 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		334CA1E61DDBD13500BF4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		334CA1E71DDBD13500BF4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		334CA1E91DDBD13500BF4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				INFOPLIST_FILE = yapayme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapayme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		334CA1EA1DDBD13500BF4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				INFOPLIST_FILE = yapayme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapayme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		334CA1EC1DDBD13500BF4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				INFOPLIST_FILE = yapaymeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapaymeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yapayme.app/yapayme";
+			};
+			name = Debug;
+		};
+		334CA1ED1DDBD13500BF4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				INFOPLIST_FILE = yapaymeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapaymeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yapayme.app/yapayme";
+			};
+			name = Release;
+		};
+		334CA1EF1DDBD13500BF4145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				INFOPLIST_FILE = yapaymeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapaymeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yapayme;
+			};
+			name = Debug;
+		};
+		334CA1F01DDBD13500BF4145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				INFOPLIST_FILE = yapaymeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapaymeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = yapayme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		334CA1BB1DDBD13500BF4145 /* Build configuration list for PBXProject "yapayme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334CA1E61DDBD13500BF4145 /* Debug */,
+				334CA1E71DDBD13500BF4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		334CA1E81DDBD13500BF4145 /* Build configuration list for PBXNativeTarget "yapayme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334CA1E91DDBD13500BF4145 /* Debug */,
+				334CA1EA1DDBD13500BF4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		334CA1EB1DDBD13500BF4145 /* Build configuration list for PBXNativeTarget "yapaymeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334CA1EC1DDBD13500BF4145 /* Debug */,
+				334CA1ED1DDBD13500BF4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		334CA1EE1DDBD13500BF4145 /* Build configuration list for PBXNativeTarget "yapaymeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				334CA1EF1DDBD13500BF4145 /* Debug */,
+				334CA1F01DDBD13500BF4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 334CA1B81DDBD13500BF4145 /* Project object */;
+}
