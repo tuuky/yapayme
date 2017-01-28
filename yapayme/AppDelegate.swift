@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +18,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        FIRDatabase.database().persistenceEnabled = true
+        
+        FBSDKAppEvents.activateApp()
+        FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
         return true
     }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+     
+        let parsedUrl:BFURL = BFURL(url: url)
+        
+        if (parsedUrl.appLinkData != nil) {
+            // this is an applink url, handle it here
+            
+            let targetUrl: NSURL = parsedUrl.targetURL as NSURL
+            
+            let alert:UIAlertController = UIAlertController(title: "Received Link:", message: targetUrl.absoluteString, preferredStyle: UIAlertControllerStyle.alert)
+            self.window?.rootViewController?.present(alert, animated: true, completion: nil)
+        }
+        
+        let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, options: options)
+        
+        return handled
+    }
+    
+    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
