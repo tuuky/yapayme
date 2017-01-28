@@ -15,6 +15,36 @@
 		334CA1D91DDBD13500BF4145 /* yapaymeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1D81DDBD13500BF4145 /* yapaymeTests.swift */; };
 		334CA1E41DDBD13500BF4145 /* yapaymeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1E31DDBD13500BF4145 /* yapaymeUITests.swift */; };
 		334CA1F51DDBD66100BF4145 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1F41DDBD66100BF4145 /* GoogleService-Info.plist */; };
+		3358E3AF1E3C4F2800475B2D /* ITravelerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3AE1E3C4F2700475B2D /* ITravelerService.swift */; };
+		3358E3B21E3C54CE00475B2D /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D0B2D1DDC04B8002566C3 /* Trip.swift */; };
+		3358E3B31E3C54CE00475B2D /* ITravelerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3AE1E3C4F2700475B2D /* ITravelerService.swift */; };
+		3358E3B41E3C54CE00475B2D /* Traveler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D0B2F1DDC0DD3002566C3 /* Traveler.swift */; };
+		3358E3B51E3C54CE00475B2D /* TripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339D0B2B1DDC044F002566C3 /* TripsTableViewController.swift */; };
+		3358E3B61E3C54CE00475B2D /* FBFriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F76C671E0F93BF00D35556 /* FBFriendsTableViewController.swift */; };
+		3358E3B71E3C54CE00475B2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1C51DDBD13500BF4145 /* ViewController.swift */; };
+		3358E3B81E3C54CE00475B2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1C31DDBD13500BF4145 /* AppDelegate.swift */; };
+		3358E3BA1E3C54CE00475B2D /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B261DDBF3BF002566C3 /* FirebaseDatabase.framework */; };
+		3358E3BB1E3C54CE00475B2D /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FD36581DE1239F00337180 /* GTMSessionFetcher.framework */; };
+		3358E3BC1E3C54CE00475B2D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76C5D1E0E6F6F00D35556 /* FBSDKLoginKit.framework */; };
+		3358E3BD1E3C54CE00475B2D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76C611E0E72CC00D35556 /* Bolts.framework */; };
+		3358E3BE1E3C54CE00475B2D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76C691E0FB98600D35556 /* FBSDKShareKit.framework */; };
+		3358E3BF1E3C54CE00475B2D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F76C5F1E0E704D00D35556 /* FBSDKCoreKit.framework */; };
+		3358E3C01E3C54CE00475B2D /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1B1DDBF3AF002566C3 /* FirebaseCore.framework */; };
+		3358E3C11E3C54CE00475B2D /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1D1DDBF3AF002566C3 /* GoogleInterchangeUtilities.framework */; };
+		3358E3C21E3C54CE00475B2D /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1E1DDBF3AF002566C3 /* GoogleSymbolUtilities.framework */; };
+		3358E3C31E3C54CE00475B2D /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1F1DDBF3AF002566C3 /* GoogleToolboxForMac.framework */; };
+		3358E3C41E3C54CE00475B2D /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33FD36571DE1239F00337180 /* FirebaseAuth.framework */; };
+		3358E3C51E3C54CE00475B2D /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1C1DDBF3AF002566C3 /* FirebaseInstanceID.framework */; };
+		3358E3C61E3C54CE00475B2D /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1A1DDBF3AF002566C3 /* FirebaseAnalytics.framework */; };
+		3358E3C91E3C54CE00475B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1CC1DDBD13500BF4145 /* LaunchScreen.storyboard */; };
+		3358E3CA1E3C54CE00475B2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1CA1DDBD13500BF4145 /* Assets.xcassets */; };
+		3358E3CB1E3C54CE00475B2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1C71DDBD13500BF4145 /* Main.storyboard */; };
+		3358E3D41E3C606300475B2D /* TravelerServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3D21E3C606300475B2D /* TravelerServiceMock.swift */; };
+		3358E3D91E3C612A00475B2D /* TravelerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3D81E3C612A00475B2D /* TravelerService.swift */; };
+		3358E3DB1E3C64BE00475B2D /* ITripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3DA1E3C64BE00475B2D /* ITripService.swift */; };
+		3358E3DC1E3C64BE00475B2D /* ITripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3DA1E3C64BE00475B2D /* ITripService.swift */; };
+		3358E3DF1E3C69F600475B2D /* TripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3DE1E3C69F600475B2D /* TripService.swift */; };
+		3358E3E11E3C6A0900475B2D /* TripServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3E01E3C6A0900475B2D /* TripServiceMock.swift */; };
 		339D0B201DDBF3AF002566C3 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1A1DDBF3AF002566C3 /* FirebaseAnalytics.framework */; };
 		339D0B211DDBF3AF002566C3 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1B1DDBF3AF002566C3 /* FirebaseCore.framework */; };
 		339D0B221DDBF3AF002566C3 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1C1DDBF3AF002566C3 /* FirebaseInstanceID.framework */; };
@@ -76,6 +106,14 @@
 		334CA2051DDBE03100BF4145 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
 		334CA2061DDBE05600BF4145 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		334CA2071DDBE25000BF4145 /* yapayme-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "yapayme-Bridging-Header.h"; path = "yapayme/yapayme-Bridging-Header.h"; sourceTree = "<group>"; };
+		3358E3AE1E3C4F2700475B2D /* ITravelerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITravelerService.swift; sourceTree = "<group>"; };
+		3358E3CF1E3C54CE00475B2D /* yapayme mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yapayme mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3358E3D01E3C54CE00475B2D /* yapayme mock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "yapayme mock-Info.plist"; path = "/Users/rodliberal/Documents/PersonaliOSProjects/yapayme/yapayme mock-Info.plist"; sourceTree = "<absolute>"; };
+		3358E3D21E3C606300475B2D /* TravelerServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelerServiceMock.swift; path = /Users/rodliberal/Documents/PersonaliOSProjects/yapayme/TravelerServiceMock.swift; sourceTree = "<absolute>"; };
+		3358E3D81E3C612A00475B2D /* TravelerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelerService.swift; sourceTree = "<group>"; };
+		3358E3DA1E3C64BE00475B2D /* ITripService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITripService.swift; sourceTree = "<group>"; };
+		3358E3DE1E3C69F600475B2D /* TripService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripService.swift; sourceTree = "<group>"; };
+		3358E3E01E3C6A0900475B2D /* TripServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripServiceMock.swift; sourceTree = "<group>"; };
 		339D0B1A1DDBF3AF002566C3 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		339D0B1B1DDBF3AF002566C3 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
 		339D0B1C1DDBF3AF002566C3 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
@@ -130,12 +168,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3358E3B91E3C54CE00475B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3358E3BA1E3C54CE00475B2D /* FirebaseDatabase.framework in Frameworks */,
+				3358E3BB1E3C54CE00475B2D /* GTMSessionFetcher.framework in Frameworks */,
+				3358E3BC1E3C54CE00475B2D /* FBSDKLoginKit.framework in Frameworks */,
+				3358E3BD1E3C54CE00475B2D /* Bolts.framework in Frameworks */,
+				3358E3BE1E3C54CE00475B2D /* FBSDKShareKit.framework in Frameworks */,
+				3358E3BF1E3C54CE00475B2D /* FBSDKCoreKit.framework in Frameworks */,
+				3358E3C01E3C54CE00475B2D /* FirebaseCore.framework in Frameworks */,
+				3358E3C11E3C54CE00475B2D /* GoogleInterchangeUtilities.framework in Frameworks */,
+				3358E3C21E3C54CE00475B2D /* GoogleSymbolUtilities.framework in Frameworks */,
+				3358E3C31E3C54CE00475B2D /* GoogleToolboxForMac.framework in Frameworks */,
+				3358E3C41E3C54CE00475B2D /* FirebaseAuth.framework in Frameworks */,
+				3358E3C51E3C54CE00475B2D /* FirebaseInstanceID.framework in Frameworks */,
+				3358E3C61E3C54CE00475B2D /* FirebaseAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		334CA1B71DDBD13500BF4145 = {
 			isa = PBXGroup;
 			children = (
+				3358E3D51E3C606800475B2D /* Firebase */,
+				3358E3AD1E3C4EEF00475B2D /* Mock */,
+				3358E3D11E3C5F8700475B2D /* Interfaces */,
 				334CA1F21DDBD62D00BF4145 /* Models */,
 				334CA1F31DDBD63500BF4145 /* Controllers */,
 				339D0B281DDBF57C002566C3 /* Layout */,
@@ -154,6 +215,7 @@
 				334CA1C01DDBD13500BF4145 /* yapayme.app */,
 				334CA1D41DDBD13500BF4145 /* yapaymeTests.xctest */,
 				334CA1DF1DDBD13500BF4145 /* yapaymeUITests.xctest */,
+				3358E3CF1E3C54CE00475B2D /* yapayme mock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -193,6 +255,7 @@
 				334CA2051DDBE03100BF4145 /* Firebase.h */,
 				334CA2061DDBE05600BF4145 /* module.modulemap */,
 				334CA1CF1DDBD13500BF4145 /* Info.plist */,
+				3358E3D01E3C54CE00475B2D /* yapayme mock-Info.plist */,
 				334CA1F41DDBD66100BF4145 /* GoogleService-Info.plist */,
 			);
 			name = "Supporting Files";
@@ -241,6 +304,33 @@
 				334CA1F71DDBDF5500BF4145 /* FirebaseDatabase.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3358E3AD1E3C4EEF00475B2D /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				3358E3D21E3C606300475B2D /* TravelerServiceMock.swift */,
+				3358E3E01E3C6A0900475B2D /* TripServiceMock.swift */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
+		3358E3D11E3C5F8700475B2D /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				3358E3AE1E3C4F2700475B2D /* ITravelerService.swift */,
+				3358E3DA1E3C64BE00475B2D /* ITripService.swift */,
+			);
+			name = Interfaces;
+			sourceTree = "<group>";
+		};
+		3358E3D51E3C606800475B2D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3358E3D81E3C612A00475B2D /* TravelerService.swift */,
+				3358E3DE1E3C69F600475B2D /* TripService.swift */,
+			);
+			name = Firebase;
 			sourceTree = "<group>";
 		};
 		339D0B281DDBF57C002566C3 /* Layout */ = {
@@ -308,6 +398,23 @@
 			productReference = 334CA1DF1DDBD13500BF4145 /* yapaymeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3358E3B01E3C54CE00475B2D /* yapayme mock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3358E3CC1E3C54CE00475B2D /* Build configuration list for PBXNativeTarget "yapayme mock" */;
+			buildPhases = (
+				3358E3B11E3C54CE00475B2D /* Sources */,
+				3358E3B91E3C54CE00475B2D /* Frameworks */,
+				3358E3C71E3C54CE00475B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "yapayme mock";
+			productName = yapayme;
+			productReference = 3358E3CF1E3C54CE00475B2D /* yapayme mock.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -335,6 +442,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 334CA1BF1DDBD13500BF4145;
 					};
+					3358E3B01E3C54CE00475B2D = {
+						DevelopmentTeam = 897A4CWZDW;
+					};
 				};
 			};
 			buildConfigurationList = 334CA1BB1DDBD13500BF4145 /* Build configuration list for PBXProject "yapayme" */;
@@ -353,6 +463,7 @@
 				334CA1BF1DDBD13500BF4145 /* yapayme */,
 				334CA1D31DDBD13500BF4145 /* yapaymeTests */,
 				334CA1DE1DDBD13500BF4145 /* yapaymeUITests */,
+				3358E3B01E3C54CE00475B2D /* yapayme mock */,
 			);
 		};
 /* End PBXProject section */
@@ -383,6 +494,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3358E3C71E3C54CE00475B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3358E3C91E3C54CE00475B2D /* LaunchScreen.storyboard in Resources */,
+				3358E3CA1E3C54CE00475B2D /* Assets.xcassets in Resources */,
+				3358E3CB1E3C54CE00475B2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -391,10 +512,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				339D0B2E1DDC04B8002566C3 /* Trip.swift in Sources */,
+				3358E3AF1E3C4F2800475B2D /* ITravelerService.swift in Sources */,
 				339D0B301DDC0DD3002566C3 /* Traveler.swift in Sources */,
 				339D0B2C1DDC044F002566C3 /* TripsTableViewController.swift in Sources */,
+				3358E3DF1E3C69F600475B2D /* TripService.swift in Sources */,
 				33F76C681E0F93BF00D35556 /* FBFriendsTableViewController.swift in Sources */,
 				334CA1C61DDBD13500BF4145 /* ViewController.swift in Sources */,
+				3358E3DB1E3C64BE00475B2D /* ITripService.swift in Sources */,
+				3358E3D91E3C612A00475B2D /* TravelerService.swift in Sources */,
 				334CA1C41DDBD13500BF4145 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +537,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				334CA1E41DDBD13500BF4145 /* yapaymeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3358E3B11E3C54CE00475B2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3358E3B21E3C54CE00475B2D /* Trip.swift in Sources */,
+				3358E3B31E3C54CE00475B2D /* ITravelerService.swift in Sources */,
+				3358E3E11E3C6A0900475B2D /* TripServiceMock.swift in Sources */,
+				3358E3B41E3C54CE00475B2D /* Traveler.swift in Sources */,
+				3358E3B51E3C54CE00475B2D /* TripsTableViewController.swift in Sources */,
+				3358E3B61E3C54CE00475B2D /* FBFriendsTableViewController.swift in Sources */,
+				3358E3B71E3C54CE00475B2D /* ViewController.swift in Sources */,
+				3358E3DC1E3C64BE00475B2D /* ITripService.swift in Sources */,
+				3358E3D41E3C606300475B2D /* TravelerServiceMock.swift in Sources */,
+				3358E3B81E3C54CE00475B2D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,6 +799,54 @@
 			};
 			name = Release;
 		};
+		3358E3CD1E3C54CE00475B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Mock";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "$(SRCROOT)/yapayme mock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clenchedteeth.yapayme-mock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yapayme/yapayme-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "Supporting Files";
+			};
+			name = Debug;
+		};
+		3358E3CE1E3C54CE00475B2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Mock";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 897A4CWZDW;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
+				INFOPLIST_FILE = "$(SRCROOT)/yapayme mock-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.clenchedteeth.yapayme-mock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "yapayme/yapayme-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "Supporting Files";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -692,6 +882,15 @@
 			buildConfigurations = (
 				334CA1EF1DDBD13500BF4145 /* Debug */,
 				334CA1F01DDBD13500BF4145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3358E3CC1E3C54CE00475B2D /* Build configuration list for PBXNativeTarget "yapayme mock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3358E3CD1E3C54CE00475B2D /* Debug */,
+				3358E3CE1E3C54CE00475B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
