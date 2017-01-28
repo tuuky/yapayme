@@ -101,7 +101,7 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5sc-TW-bjO">
                             <connections>
-                                <segue destination="9V7-3S-XXg" kind="presentation" id="nBb-Uu-JmB"/>
+                                <action selector="addButtonDidTouch:" destination="g3c-8E-u3I" id="OGx-4M-2sf"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -121,7 +121,7 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCell" rowHeight="74" id="ny3-bo-r4D">
-                                <rect key="frame" x="0.0" y="56" width="375" height="74"/>
+                                <rect key="frame" x="0.0" y="55.5" width="375" height="74"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ny3-bo-r4D" id="arz-xj-Evf">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="73.5"/>

@@ -10,9 +10,14 @@ import UIKit
 import FBSDKCoreKit
 import Bolts
 
+
+let tripFetchCompleted = "com.yapayme.tripListFetchCompleted"
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    
     var window: UIWindow?
 
 

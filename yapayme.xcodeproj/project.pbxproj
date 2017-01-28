@@ -45,6 +45,7 @@
 		3358E3DC1E3C64BE00475B2D /* ITripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3DA1E3C64BE00475B2D /* ITripService.swift */; };
 		3358E3DF1E3C69F600475B2D /* TripService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3DE1E3C69F600475B2D /* TripService.swift */; };
 		3358E3E11E3C6A0900475B2D /* TripServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358E3E01E3C6A0900475B2D /* TripServiceMock.swift */; };
+		3358E3E21E3C6C8B00475B2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1F41DDBD66100BF4145 /* GoogleService-Info.plist */; };
 		339D0B201DDBF3AF002566C3 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1A1DDBF3AF002566C3 /* FirebaseAnalytics.framework */; };
 		339D0B211DDBF3AF002566C3 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1B1DDBF3AF002566C3 /* FirebaseCore.framework */; };
 		339D0B221DDBF3AF002566C3 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 339D0B1C1DDBF3AF002566C3 /* FirebaseInstanceID.framework */; };
@@ -109,7 +110,7 @@
 		3358E3AE1E3C4F2700475B2D /* ITravelerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITravelerService.swift; sourceTree = "<group>"; };
 		3358E3CF1E3C54CE00475B2D /* yapayme mock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yapayme mock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3358E3D01E3C54CE00475B2D /* yapayme mock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "yapayme mock-Info.plist"; path = "/Users/rodliberal/Documents/PersonaliOSProjects/yapayme/yapayme mock-Info.plist"; sourceTree = "<absolute>"; };
-		3358E3D21E3C606300475B2D /* TravelerServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelerServiceMock.swift; path = /Users/rodliberal/Documents/PersonaliOSProjects/yapayme/TravelerServiceMock.swift; sourceTree = "<absolute>"; };
+		3358E3D21E3C606300475B2D /* TravelerServiceMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelerServiceMock.swift; sourceTree = "<group>"; };
 		3358E3D81E3C612A00475B2D /* TravelerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelerService.swift; sourceTree = "<group>"; };
 		3358E3DA1E3C64BE00475B2D /* ITripService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ITripService.swift; sourceTree = "<group>"; };
 		3358E3DE1E3C69F600475B2D /* TripService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripService.swift; sourceTree = "<group>"; };
@@ -499,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3358E3C91E3C54CE00475B2D /* LaunchScreen.storyboard in Resources */,
+				3358E3E21E3C6C8B00475B2D /* GoogleService-Info.plist in Resources */,
 				3358E3CA1E3C54CE00475B2D /* Assets.xcassets in Resources */,
 				3358E3CB1E3C54CE00475B2D /* Main.storyboard in Resources */,
 			);

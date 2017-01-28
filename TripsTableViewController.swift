@@ -14,8 +14,8 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
 
     
     // MARK: Properties
-    var items: [Trip] = []
-    let ref = FIRDatabase.database().reference(withPath: "trips")
+    var _items: [Trip] = []
+    let _tripService = TripService()
     
     @IBAction func InviteFBFriends(_ sender: UIBarButtonItem) {
         let content = FBSDKAppInviteContent()
@@ -26,25 +26,12 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+  
         
-        ref.queryOrdered(byChild: "name").observe(.value, with: { snapshot in
-            var newItems: [Trip] = []
-            
-            for item in snapshot.children {
-                let tripItem = Trip(snapshot: item as! FIRDataSnapshot)
-                newItems.append(tripItem)
-            }
-            
-            self.items = newItems
+        _tripService.GetTripList { (trips) in
+            self._items = trips
             self.tableView.reloadData()
-        })
-
+        }
     }
     
     func appInviteDialog(_ appInviteDialog: FBSDKAppInviteDialog!, didCompleteWithResults results: [AnyHashable : Any]!) {
@@ -53,7 +40,6 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
     
     func appInviteDialog(_ appInviteDialog: FBSDKAppInviteDialog!, didFailWithError error: Error!) {
         print(error)
-        
         
     }
     
@@ -83,13 +69,13 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return items.count
+        return _items.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TripCell", for: indexPath)
-        let trip = items[indexPath.row]
+        let trip = _items[indexPath.row]
         
         cell.textLabel?.text = trip.name
 
@@ -104,21 +90,19 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
         let saveAction = UIAlertAction(title: "Save",
                                        style: .default) { action in
                                         // 1
+                                        alert.textFields?.first?.autocapitalizationType = UITextAutocapitalizationType.allCharacters
+                                        
                                         guard let textField = alert.textFields?.first,
-                                            let text = textField.text else { return }
+                                            let text = textField.text
+                                            else { return }
+                                        
                                         
                                         // 2
-//                                        let dateFormatter = DateFormatter()
-                                        
-//                                        let beginDate = dateFormatter.date(from: "09/28/2016")
-//                                        let endDate = dateFormatter.date(from: "10/08/2016")
                                         
                                         let tripItem = Trip(name: text, currency: "USD", isClosed: false)
-                                        // 3
-                                        let tripItemRef = self.ref.child(text.lowercased())
+//                                      
+                                        self._tripService.CreateNewTrip(trip: tripItem)
                                         
-                                        // 4
-                                        tripItemRef.setValue(tripItem.toAnyObject())
         }
         
         let cancelAction = UIAlertAction(title: "Cancel",

@@ -10,6 +10,5 @@ import Foundation
 
 protocol ITraveler {
     
-    func GetUserList() -> Array<Traveler>
-    
+    func GetTravelerList(completionBlock: @escaping ((Array<Traveler>) -> Void) )
 }

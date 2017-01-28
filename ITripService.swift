@@ -10,6 +10,7 @@ import Foundation
 
 protocol ITrip {
     
-    func GetTripList() -> Array<Trip>
+    func GetTripList(completionBlock: @escaping ((Array<Trip>) -> Void) )
+    func CreateNewTrip(trip: Trip) -> Void
     
 }

@@ -10,19 +10,19 @@ import Foundation
 
 class TravelerService: ITraveler {
     
-    func GetUserList() -> Array<Traveler> {
-        var travelers = [Traveler] ()
+    func GetTravelerList(completionBlock: @escaping ((Array<Traveler>) -> Void)) {
+        let ref = FIRDatabase.database().reference(withPath: "travelers")
         
-        let user1: Traveler = Traveler(key: "1", name: "Mark Moeykens")
-        let user2: Traveler = Traveler(key: "2", name: "Chase Blumenthal")
-        let user3: Traveler = Traveler(key: "3", name: "Chris Durtschi")
-        let user4: Traveler = Traveler(key: "4", name: "Clint Barnes")
         
-        travelers.append(user1)
-        travelers.append(user2)
-        travelers.append(user3)
-        travelers.append(user4)
-        
-        return travelers
+        ref.queryOrdered(byChild: "name").observe(.value, with: { snapshot in
+            var newItems: [Traveler] = []
+            
+            for item in snapshot.children {
+                let tripItem = Traveler(snapshot: item as! FIRDataSnapshot)
+                newItems.append(tripItem)
+            }
+            
+            completionBlock(newItems)
+        })
     }
 }
