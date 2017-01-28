@@ -13,10 +13,10 @@ class TravelerService: ITraveler {
     func GetTravelerList(completionBlock: @escaping ((Array<Traveler>) -> Void)) {
         var travelers = [Traveler] ()
         
-        let user1: Traveler = Traveler(key: "1", name: "Mark Moeykens")
-        let user2: Traveler = Traveler(key: "2", name: "Chase Blumenthal")
-        let user3: Traveler = Traveler(key: "3", name: "Chris Durtschi")
-        let user4: Traveler = Traveler(key: "4", name: "Clint Barnes")
+        let user1: Traveler = Traveler(name: "Mark Moeykens", key: "1")
+        let user2: Traveler = Traveler(name: "Chase Blumenthal", key: "2")
+        let user3: Traveler = Traveler(name: "Chris Durtschi", key: "3")
+        let user4: Traveler = Traveler(name: "Clint Barnes", key: "4")
         
         travelers.append(user1)
         travelers.append(user2)

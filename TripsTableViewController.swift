@@ -96,11 +96,8 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
                                             let text = textField.text
                                             else { return }
                                         
-                                        
-                                        // 2
-                                        
                                         let tripItem = Trip(name: text, currency: "USD", isClosed: false)
-//                                      
+
                                         self._tripService.CreateNewTrip(trip: tripItem)
                                         
         }

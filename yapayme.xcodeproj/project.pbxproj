@@ -712,6 +712,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
+				OTHER_SWIFT_FLAGS = "-DFIREBASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapayme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "yapayme/yapayme-Bridging-Header.h";
@@ -735,6 +736,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
+				OTHER_SWIFT_FLAGS = "-DFIREBASE";
 				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapayme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "yapayme/yapayme-Bridging-Header.h";

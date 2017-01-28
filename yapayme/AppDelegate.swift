@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
         FIRApp.configure()
         FIRDatabase.database().persistenceEnabled = true
         
@@ -34,6 +34,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
      
+        #if DEVELOPMENT
+//            let SERVER_URL = "http://dev.server.com/api/"
+//            let API_TOKEN = "DI2023409jf90ew"
+        #else
+//            let SERVER_URL = "http://prod.server.com/api/"
+//            let API_TOKEN = "71a629j0f090232"
+        #endif
+        
         let parsedUrl:BFURL = BFURL(url: url)
         
         if (parsedUrl.appLinkData != nil) {
