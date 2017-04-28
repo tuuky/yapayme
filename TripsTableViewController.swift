@@ -16,6 +16,7 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
     // MARK: Properties
     var _items: [Trip] = []
     let _tripService = TripService()
+    let _facebookService = FacebookService()
     
     @IBAction func InviteFBFriends(_ sender: UIBarButtonItem) {
         let content = FBSDKAppInviteContent()
@@ -27,15 +28,19 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
     override func viewDidLoad() {
         super.viewDidLoad()
   
+        _facebookService.GetFriendsWithAppList()
         
         _tripService.GetTripList { (trips) in
             self._items = trips
             self.tableView.reloadData()
         }
+        
+//        Logout()
     }
     
     func appInviteDialog(_ appInviteDialog: FBSDKAppInviteDialog!, didCompleteWithResults results: [AnyHashable : Any]!) {
         
+        print(results)
     }
     
     func appInviteDialog(_ appInviteDialog: FBSDKAppInviteDialog!, didFailWithError error: Error!) {
@@ -46,13 +51,18 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
     
     @IBAction func LogoutFacebook(_ sender: UIBarButtonItem) {
         
+        Logout()
+    }
+    
+    private func Logout()
+    {
         try! FIRAuth.auth()?.signOut()
         FBSDKAccessToken.setCurrent(nil)
         
         let mainStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         let viewController: UIViewController = mainStoryboard.instantiateViewController(withIdentifier: "LoginView")
         self.present(viewController, animated: true, completion: nil)
-        
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -96,7 +106,11 @@ class TripsTableViewController: UITableViewController, FBSDKAppInviteDialogDeleg
                                             let text = textField.text
                                             else { return }
                                         
-                                        let tripItem = Trip(name: text, currency: "USD", isClosed: false)
+                                        let creator = FIRAuth.auth()?.currentUser?.uid
+                                        let createdAt = NSDate().timeIntervalSince1970 * 1000
+                                        let traveler: [String: Bool] = [creator!: true]
+                                        
+                                        let tripItem = Trip(creator: creator!, name: text, currency: "USD", isClosed: false, createdAt: createdAt, travelers: traveler, outings: [:])
 
                                         self._tripService.CreateNewTrip(trip: tripItem)
                                         

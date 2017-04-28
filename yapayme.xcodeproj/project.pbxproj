@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33302D681E3C9BC9009D6EC7 /* IFacebookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33302D671E3C9BC9009D6EC7 /* IFacebookService.swift */; };
+		33302D691E3C9BC9009D6EC7 /* IFacebookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33302D671E3C9BC9009D6EC7 /* IFacebookService.swift */; };
+		33302D6B1E3C9C96009D6EC7 /* FacebookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33302D6A1E3C9C96009D6EC7 /* FacebookService.swift */; };
 		334CA1C41DDBD13500BF4145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1C31DDBD13500BF4145 /* AppDelegate.swift */; };
 		334CA1C61DDBD13500BF4145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334CA1C51DDBD13500BF4145 /* ViewController.swift */; };
 		334CA1C91DDBD13500BF4145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CA1C71DDBD13500BF4145 /* Main.storyboard */; };
@@ -83,6 +86,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33302D671E3C9BC9009D6EC7 /* IFacebookService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IFacebookService.swift; sourceTree = "<group>"; };
+		33302D6A1E3C9C96009D6EC7 /* FacebookService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookService.swift; sourceTree = "<group>"; };
 		334CA1C01DDBD13500BF4145 /* yapayme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yapayme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334CA1C31DDBD13500BF4145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		334CA1C51DDBD13500BF4145 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -321,6 +326,7 @@
 			children = (
 				3358E3AE1E3C4F2700475B2D /* ITravelerService.swift */,
 				3358E3DA1E3C64BE00475B2D /* ITripService.swift */,
+				33302D671E3C9BC9009D6EC7 /* IFacebookService.swift */,
 			);
 			name = Interfaces;
 			sourceTree = "<group>";
@@ -330,6 +336,7 @@
 			children = (
 				3358E3D81E3C612A00475B2D /* TravelerService.swift */,
 				3358E3DE1E3C69F600475B2D /* TripService.swift */,
+				33302D6A1E3C9C96009D6EC7 /* FacebookService.swift */,
 			);
 			name = Firebase;
 			sourceTree = "<group>";
@@ -520,7 +527,9 @@
 				3358E3DF1E3C69F600475B2D /* TripService.swift in Sources */,
 				33F76C681E0F93BF00D35556 /* FBFriendsTableViewController.swift in Sources */,
 				334CA1C61DDBD13500BF4145 /* ViewController.swift in Sources */,
+				33302D6B1E3C9C96009D6EC7 /* FacebookService.swift in Sources */,
 				3358E3DB1E3C64BE00475B2D /* ITripService.swift in Sources */,
+				33302D681E3C9BC9009D6EC7 /* IFacebookService.swift in Sources */,
 				3358E3D91E3C612A00475B2D /* TravelerService.swift in Sources */,
 				334CA1C41DDBD13500BF4145 /* AppDelegate.swift in Sources */,
 			);
@@ -554,6 +563,7 @@
 				3358E3B61E3C54CE00475B2D /* FBFriendsTableViewController.swift in Sources */,
 				3358E3B71E3C54CE00475B2D /* ViewController.swift in Sources */,
 				3358E3DC1E3C64BE00475B2D /* ITripService.swift in Sources */,
+				33302D691E3C9BC9009D6EC7 /* IFacebookService.swift in Sources */,
 				3358E3D41E3C606300475B2D /* TravelerServiceMock.swift in Sources */,
 				3358E3B81E3C54CE00475B2D /* AppDelegate.swift in Sources */,
 			);
@@ -713,7 +723,7 @@
 					"-ObjC",
 				);
 				OTHER_SWIFT_FLAGS = "-DFIREBASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapayme;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapaymeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "yapayme/yapayme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -737,7 +747,7 @@
 					"-ObjC",
 				);
 				OTHER_SWIFT_FLAGS = "-DFIREBASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapayme;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clenchedteeth.yapaymeapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "yapayme/yapayme-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

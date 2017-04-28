@@ -13,7 +13,9 @@ class TripService: ITrip {
         
         var trips = [Trip] ()
         
-        let trip1: Trip = Trip(name: "Cancun Mock", currency: "USD", isClosed: false)
+        let createdAt = Date().timeIntervalSince1970 * 1000
+        
+        let trip1: Trip = Trip(name: "Cancun Mock", currency: "USD", isClosed: false, creator: "9eQCgBqI8DTiCCx1RDFZQfpVlW93", createdAt: createdAt)
         let trip2: Trip = Trip(name: "Florida Mock", currency: "USD", isClosed: false)
         let trip3: Trip = Trip(name: "Paris Mock", currency: "EUR", isClosed: false)
         let trip4: Trip = Trip(name: "Germany Mock", currency: "EUR", isClosed: false)
